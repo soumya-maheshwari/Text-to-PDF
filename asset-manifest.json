@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Text-to-PDF/static/css/main.5bff1cf8.css",
+    "main.js": "/Text-to-PDF/static/js/main.d67b1a53.js",
+    "static/js/498.c01530f0.chunk.js": "/Text-to-PDF/static/js/498.c01530f0.chunk.js",
+    "static/js/703.05617f9c.chunk.js": "/Text-to-PDF/static/js/703.05617f9c.chunk.js",
+    "static/js/9.8a516df1.chunk.js": "/Text-to-PDF/static/js/9.8a516df1.chunk.js",
+    "static/js/787.c1112931.chunk.js": "/Text-to-PDF/static/js/787.c1112931.chunk.js",
+    "index.html": "/Text-to-PDF/index.html",
+    "main.5bff1cf8.css.map": "/Text-to-PDF/static/css/main.5bff1cf8.css.map",
+    "main.d67b1a53.js.map": "/Text-to-PDF/static/js/main.d67b1a53.js.map",
+    "498.c01530f0.chunk.js.map": "/Text-to-PDF/static/js/498.c01530f0.chunk.js.map",
+    "703.05617f9c.chunk.js.map": "/Text-to-PDF/static/js/703.05617f9c.chunk.js.map",
+    "9.8a516df1.chunk.js.map": "/Text-to-PDF/static/js/9.8a516df1.chunk.js.map",
+    "787.c1112931.chunk.js.map": "/Text-to-PDF/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bff1cf8.css",
+    "static/js/main.d67b1a53.js"
+  ]
+}
