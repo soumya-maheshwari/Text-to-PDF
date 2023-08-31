@@ -1,11 +1,12 @@
 .converter-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 30px;
-  border: 1px solid #ccc;
+  padding: 10px;
+  border: 6px solid #ccc;
   border-radius: 5px;
   box-shadow: 10px 2px 40px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin-top: 20px;
 }
 
 h1 {
@@ -14,9 +15,9 @@ h1 {
 
 .text-input {
   width: 90%;
-  height: 500px;
+  height: 400px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 5px;
   resize: vertical;
 }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./style.css";
 import jsPDF from "jspdf";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
   const [textInput, setTextInput] = useState("");
@@ -10,9 +12,22 @@ const Home = () => {
   };
 
   const handleConvertToPDF = () => {
-    const doc = new jsPDF();
-    doc.text(textInput, 10, 10);
-    doc.save("converted-text.pdf");
+    if (!textInput) {
+      toast.error(`Please Enter something`, {
+        position: "top-right",
+        theme: "dark",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    } else {
+      const doc = new jsPDF();
+      doc.text(textInput, 10, 10);
+      doc.save("converted-text.pdf");
+      console.log("file downloaded");
+    }
   };
 
   return (
@@ -29,6 +44,7 @@ const Home = () => {
           Convert to PDF
         </button>
       </div>
+      <ToastContainer />
     </>
   );
 };
