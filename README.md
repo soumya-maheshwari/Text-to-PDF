@@ -15,7 +15,7 @@ git clone https://github.com/soumya-maheshwari/Text-to-PDF/
 
 2. Navigate to the project directory:
 ```CMD
-cd app
+cd Text-to-PDF
 ```
 
 3. Install dependencies: 
